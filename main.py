@@ -4,7 +4,7 @@ from pathlib import Path
 BLENDER = r"C:\Program Files\Blender Foundation\Blender 5.1\blender.exe"
 BLEND_FILE = str(Path("trillon.blend").resolve())
 
-start_frame = 197
+start_frame = 400
 end_frame = 510
 
 for frame in range(start_frame, end_frame + 1):
